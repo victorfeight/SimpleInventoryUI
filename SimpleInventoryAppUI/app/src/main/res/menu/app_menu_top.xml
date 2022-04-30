@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/exitApp"
+        android:contentDescription="@string/sign_out_menu"
+        android:icon="@drawable/exit_app"
+        android:title="@string/sign_out_menu"
+        app:showAsAction="always" />
+
+</menu>

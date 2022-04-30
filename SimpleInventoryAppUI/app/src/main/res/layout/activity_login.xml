@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_700"
+    tools:context=".UserLoginActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/image_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/app_icon" />
+
+    <TextView
+        android:id="@+id/textViewLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/login_activity"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" />
+
+  <EditText
+    android:id="@+id/editTextEmailAddress"
+    android:layout_width="320dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="24dp"
+    android:background="@drawable/round_corners_field"
+    android:backgroundTint="@color/white"
+    android:ems="12"
+    android:gravity="center"
+    android:hint="@string/user_email"
+    android:inputType="textEmailAddress"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewLoginTitle" />
+
+  <EditText
+    android:id="@+id/editTextPassword"
+    android:layout_width="320dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="24dp"
+    android:background="@drawable/round_corners_field"
+    android:backgroundTint="@color/white"
+    android:ems="12"
+    android:gravity="center"
+    android:hint="@string/user_pass"
+    android:importantForAutofill="no"
+    android:inputType="textPassword"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
+
+  <Button
+    android:id="@+id/signinButton"
+    android:layout_width="120dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="32dp"
+    android:layout_marginEnd="64dp"
+    android:layout_marginRight="64dp"
+    android:background="@drawable/round_corners_btn"
+    android:text="@string/signin_button"
+    android:textSize="16sp"
+    app:backgroundTint="@color/teal_700"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+
+  <Button
+    android:id="@+id/registerButton"
+    android:layout_width="120dp"
+    android:layout_height="48dp"
+    android:layout_marginStart="64dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/round_corners_btn"
+    android:text="@string/register_button"
+    android:textSize="16sp"
+    app:backgroundTint="@color/blue_500"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
+
+  <Button
+    android:id="@+id/forgotPasswordButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/lato_regular"
+    android:text="@string/forgot_password_ask"
+    android:textSize="12sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/registerButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

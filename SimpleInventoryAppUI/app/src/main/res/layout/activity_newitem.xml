@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity">
+
+    <TextView
+        android:id="@+id/textViewAddItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:text="@string/additem_activity_title"
+        android:textColor="@color/blue_700"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLoggedUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="@string/logged_in_user"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center_horizontal"
+        android:textColor="@color/teal_700"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAddItemTitle" />
+
+  <TextView
+    android:id="@+id/textViewItemDescriptionLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:fontFamily="@font/lato_regular"
+    android:text="@string/item_description"
+    android:textColor="@color/blue_700"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.314"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewLoggedUser" />
+
+  <EditText
+    android:id="@+id/editTextItemDescription"
+    android:layout_width="248dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="16dp"
+    android:hint="@string/item_description_hint"
+    android:inputType="textCapWords"
+    android:padding="5dp"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textViewItemDescriptionLabel" />
+
+
+  <TextView
+    android:id="@+id/textViewItemQuantityLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:fontFamily="@font/lato_regular"
+    android:text="@string/item_quantity_label"
+    android:textColor="@color/blue_700"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.274"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextItemDescription" />
+
+  <LinearLayout
+    android:id="@+id/linearLayoutItemQuantity"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="8"
+    app:layout_constraintTop_toBottomOf="@+id/textViewItemQuantityLabel"
+    tools:layout_editor_absoluteX="-50dp">
+
+    <ImageButton
+      android:id="@+id/itemQtyDecrease"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:background="@color/white"
+      android:contentDescription="@string/decrease_label_description"
+      app:srcCompat="@drawable/decrement_item"
+      app:tint="@color/blue_700" />
+
+
+    <EditText
+      android:id="@+id/editTextItemQuantity"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="2"
+      android:gravity="center"
+      android:inputType="number"
+      android:text="@string/zero"
+      android:textSize="20sp" />
+
+    <ImageButton
+      android:id="@+id/itemQtyIncrease"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:background="@color/white"
+      android:contentDescription="@string/increase_label_description"
+      app:srcCompat="@drawable/increment_item"
+      app:tint="@color/blue_700" />
+
+  </LinearLayout>
+
+  <Button
+    android:id="@+id/addCancelButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="64dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/round_corners_btn"
+    android:fontFamily="@font/lato_regular"
+    android:text="@string/cancel_button"
+    android:textSize="16sp"
+    app:backgroundTint="@color/teal_700"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayoutItemQuantity" />
+
+  <Button
+    android:id="@+id/addItemButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:layout_marginEnd="64dp"
+    android:layout_marginRight="64dp"
+    android:background="@drawable/round_corners_btn"
+    android:fontFamily="@font/lato_regular"
+    android:text="@string/add_item_button"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayoutItemQuantity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

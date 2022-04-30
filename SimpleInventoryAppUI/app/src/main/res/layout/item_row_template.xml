@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/itemLinearLayout"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/white">
+
+  <ImageButton
+    android:id="@+id/editButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_edit"
+    android:contentDescription="@string/edit_item_description"
+    android:minWidth="48dp"
+    android:minHeight="48dp" />
+
+  <TextView
+    android:id="@+id/textViewItemId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" />
+
+  <TextView
+    android:id="@+id/textViewUserEmail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" />
+
+  <TextView
+    android:id="@+id/textViewItemDesc"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:fontFamily="@font/lato_regular"
+    android:gravity="center_vertical"
+    android:hint="@string/item_row_description_hint"
+    android:padding="5dp"
+    android:textSize="16sp" />
+
+  <TextView
+    android:id="@+id/textViewItemQty"
+    android:layout_width="72dp"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:fontFamily="@font/lato_regular"
+    android:gravity="center_horizontal|center_vertical"
+    android:hint="@string/item_quantity_row_hint"
+    android:textSize="16sp" />
+
+  <ImageButton
+    android:id="@+id/deleteButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_delete"
+    android:contentDescription="@string/delete_item_icon"
+    android:minWidth="48dp"
+    android:minHeight="48dp" />
+
+</LinearLayout>

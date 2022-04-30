@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_700"
+    tools:context=".ItemsListActivity">
+
+    <LinearLayout
+        android:id="@+id/headerLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:fontFamily="@font/lato_regular"
+            android:paddingStart="5pt"
+            android:paddingEnd="5pt"
+            android:text="@string/column_item_description_heading"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/column_item_quantity_heading"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/bodyListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/scrollview_description"
+        app:layout_constraintBottom_toTopOf="@+id/footer1LinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerLinearLayout">
+
+        <!-- Dynamically insert item row -->
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/footer1LinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/footer2LinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/smsNotification"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@color/blue_700"
+            android:contentDescription="@string/sms_icon"
+            app:srcCompat="@drawable/sms_notification" />
+
+        <LinearLayout
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/addItemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@color/blue_700"
+                android:contentDescription="@string/add_vector_description"
+                app:srcCompat="@drawable/item_add" />
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+        <TextView
+            android:id="@+id/textViewTotalItemsCount"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@color/blue_700"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer2LinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/sms_button_label"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textViewUserNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center_horizontal"
+            android:hint="@string/logged_in_user"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/total_items"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

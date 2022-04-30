@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dropbox/ARSARI_Coding/Projects/InventoryApp/app/src/main/res/layout/activity_additem.xml" value="0.32222222222222224" />
+        <entry key="..\:/Dropbox/ARSARI_Coding/Projects/InventoryApp/app/src/main/res/layout/activity_items.xml" value="0.32222222222222224" />
+        <entry key="..\:/Dropbox/ARSARI_Coding/Projects/InventoryApp/app/src/main/res/layout/activity_login.xml" value="0.32222222222222224" />
+        <entry key="..\:/Dropbox/ARSARI_Coding/Projects/InventoryApp/app/src/main/res/layout/activity_register.xml" value="0.32222222222222224" />
+        <entry key="..\:/Dropbox/ARSARI_Coding/Projects/InventoryApp/app/src/main/res/layout/edit_item_popup.xml" value="0.32222222222222224" />
+        <entry key="..\:/Dropbox/ARSARI_Coding/Projects/InventoryApp/app/src/main/res/layout/forgot_pass_popup.xml" value="0.32222222222222224" />
+        <entry key="..\:/Dropbox/ARSARI_Coding/Projects/InventoryApp/app/src/main/res/layout/item_row_template.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryApp/app/src/main/res/drawable/border.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryApp/app/src/main/res/drawable/delete_item.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryApp/app/src/main/res/drawable/edit_item.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryApp/app/src/main/res/drawable/exit_app.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryAppUI/app/src/main/res/drawable/decrease_quantity.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryAppUI/app/src/main/res/drawable/delete_all_items.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryAppUI/app/src/main/res/drawable/increase_quantity.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryAppUI/app/src/main/res/drawable/round_corners_btn.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryAppUI/app/src/main/res/drawable/round_corners_field.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/InventoryAppUI/app/src/main/res/drawable/sms_notification.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20879629629629629" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/add_item.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/border.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/decrease_quantity.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/decrement_item.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/delete_all_items.xml" value="0.20879629629629629" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/delete_item.xml" value="0.20879629629629629" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/empty_database.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/exit_app.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/increase_quantity.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/increment_item.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/item_add.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/remove_item.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/round_corners_btn.xml" value="0.20879629629629629" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/round_corners_field.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/drawable/sms_notification.xml" value="0.20879629629629629" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/layout/activity_item_list.xml" value="0.6438482886216467" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/layout/activity_login.xml" value="0.6795454545454546" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/layout/activity_newitem.xml" value="0.5" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/layout/activity_user_register.xml" value="0.33" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/layout/edit_item_popup.xml" value="0.67" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/layout/forgot_pass_popup.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/Vic/AndroidStudioProjects/SimpleInventoryAppUI/app/src/main/res/layout/item_row_template.xml" value="0.1824074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
